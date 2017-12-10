@@ -1,4 +1,4 @@
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 var todos;
 (function (todos) {
     'use strict';
@@ -11,9 +11,9 @@ var todos;
     }());
     todos.TodoItem = TodoItem;
 })(todos || (todos = {}));
-/// <reference path='../_all.ts' />
-/// <reference path='../_all.ts' />
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
+/// <reference path='../reference.ts' />
+/// <reference path='../reference.ts' />
 var todos;
 (function (todos) {
     'use strict';
@@ -34,7 +34,7 @@ var todos;
     todos.todoFocus = todoFocus;
     todoFocus.$inject = ['$timeout'];
 })(todos || (todos = {}));
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 var todos;
 (function (todos) {
     'use strict';
@@ -51,7 +51,7 @@ var todos;
     }
     todos.todoBlur = todoBlur;
 })(todos || (todos = {}));
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 var todos;
 (function (todos) {
     'use strict';
@@ -73,7 +73,7 @@ var todos;
     }
     todos.todoEscape = todoEscape;
 })(todos || (todos = {}));
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 var todos;
 (function (todos_1) {
     'use strict';
@@ -94,7 +94,7 @@ var todos;
     }());
     todos_1.TodoStorage = TodoStorage;
 })(todos || (todos = {}));
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 var todos;
 (function (todos) {
     'use strict';
@@ -190,7 +190,7 @@ var todos;
     }());
     todos.TodoCtrl = TodoCtrl;
 })(todos || (todos = {}));
-/// <reference path='_all.ts' />
+/// <reference path='reference.ts' />
 /**
  * The main TodoMVC app module.
  *
@@ -216,4 +216,4 @@ var todos;
 /// <reference path='directives/TodoEscape.ts' />
 /// <reference path='services/TodoStorage.ts' />
 /// <reference path='controllers/TodoCtrl.ts' />
-/// <reference path='Application.ts' />
+/// <reference path='Application.ts' /> 

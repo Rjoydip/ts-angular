@@ -1,4 +1,4 @@
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 
 module todos {
     'use strict';
@@ -7,6 +7,6 @@ module todos {
         constructor(
             public title: string,
             public completed: boolean
-            ) { }
+        ) { }
     }
 }

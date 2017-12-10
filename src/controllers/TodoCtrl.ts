@@ -1,4 +1,4 @@
-/// <reference path='../_all.ts' />
+/// <reference path='../reference.ts' />
 
 module todos {
 	'use strict';
@@ -29,7 +29,7 @@ module todos {
 			private $scope: ITodoScope,
 			private $location: ng.ILocationService,
 			private todoStorage: ITodoStorage,
-			private filterFilter
+			private filterFilter: any
 		) {
 			this.todos = $scope.todos = todoStorage.get();
 
@@ -49,7 +49,7 @@ module todos {
 			$scope.location = $location;
 		}
 
-		onPath(path: string) {
+		onPath(path: string| object) {
 			this.$scope.statusFilter = (path === '/active') ?
 				{ completed: false } : (path === '/completed') ?
 				{ completed: true } : {};
